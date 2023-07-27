@@ -1,5 +1,7 @@
 import customtkinter as ctk
 
+# usar o comando pip install customtkinter para intalar o bibloteca no cmd 
+
 def show_message_box(title, message):
     top = ctk.CTk()
     top.geometry("300x150")
