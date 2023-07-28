@@ -1,0 +1,27 @@
+Ola ! 
+
+para poder usar o programa você vai precisar:
+
+1° do Pyhon intalado, a versão usada foi  o Python 3.11.4 
+para saber a sua versão utilize no seu pc use o comandando no cmd Python --version  
+
+- no seu cmd, digite: pip install mysql-connector-python, para poder instalar a biblioteca de conexão do banco de dados no python.
+
+2° do banco de dados phpmyadmin, foi usado o xampp:
+
+- você pode baixar no site: https://www.apachefriends.org/pt_br/index.html 
+
+- caso você ja tenha e alterou o user e senha padrão do xampp, não esquece de colocar la no codigo !  
+
+- exemplo, na linha 11 do codigo você vai colocar assim: 
+
+conexao = mysql.connector.connect(
+    host='localhost',
+    user='cleitinho',
+    password='40228922',
+    database='tbuser'
+)  
+ 
+-não esqueça de importar o banco de dados para seu phpmyadmin, ele esta na pasta com o nome banco_trabalho
+
+3° agora você pode simplismente dar dois click no arquivo estudo que vai abrir o programa!
