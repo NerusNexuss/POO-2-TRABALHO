@@ -2,7 +2,7 @@ Ola !
 
 para poder usar o programa você vai precisar:
 
-1° do Pyhon intalado, a versão usada foi  o Python 3.11.4 
+1° do Pyhon instalado, a versão usada foi  o Python 3.11.4 
 para saber a sua versão utilize no seu pc use o comandando no cmd Python --version  
 
 - no seu cmd, digite: pip install mysql-connector-python, para poder instalar a biblioteca de conexão do banco de dados no python.
