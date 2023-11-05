@@ -14,7 +14,7 @@ conexao = mysql.connector.connect(
     password='',
     database='tbuser'
 ) 
-cursor = conexao.cursor()
+cursor = conexao.cursor(
 
 # resolução da janela
 largura = 800
